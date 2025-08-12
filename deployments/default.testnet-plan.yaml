@@ -1,0 +1,18 @@
+---
+id: 0
+name: Testnet deployment
+network: testnet
+stacks-node: "https://api.testnet.hiro.so"
+bitcoin-node: "http://blockstack:blockstacksystem@bitcoind.testnet.stacks.co:18332"
+plan:
+  batches:
+    - id: 0
+      transactions:
+        - contract-publish:
+            contract-name: decentralized-identity-for-students
+            expected-sender: ST2XM9XBATRQM9YV9S41RGPZ82TEEEE47DZH74VPR
+            cost: 10070
+            path: "contracts\\decentralized-identity-for-students.clar"
+            anchor-block-only: true
+            clarity-version: 3
+      epoch: "3.2"
