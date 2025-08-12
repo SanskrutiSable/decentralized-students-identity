@@ -23,3 +23,4 @@ To create a **trustless, transparent, and permanent student identity system** wh
 ## 5. Contract Address
 *To be deployed on Stacks Testnet / Mainnet — replace with actual address after deployment.*
 Example: `SP2C2YZ9Y8XQ1H3KTW5P9D0K8J6X0F7V0N1ABCDEF.student-identity`
+<img width="1890" height="986" alt="image" src="https://github.com/user-attachments/assets/f25951c8-637a-4ccb-b219-251a8e98b05c" />
